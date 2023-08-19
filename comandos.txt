@@ -1,0 +1,37 @@
+  212  mkdir checkpoint
+  213  cd checkpoint
+  214  git init
+  215  git remote add origin https://github.com/fcurcho/Checkpoint-Natalia.git
+  216  touch main.js index.html
+  217  ls
+  218  git add .
+  219  git commit -m "commit 01 de Natalia"
+  220  git push
+  221  git pull
+  222  git push
+  223  git config --global push.autoSetupRemote true
+  224  git push
+  225  git branch feature
+  226  git checkout -b feature
+  227  git checkout feature
+  228  mkdir Hardware Software SeguridadInformatica
+  229  ls
+  230  touch Hardware/resumen.txt
+  231  cd hardware
+  232  ls
+  233  cd ..+
+  234  cd ..
+  235  touch Software/resumen.txt
+  236  touch SeguridadInformatica/resumen.txt
+  237  git add .
+  238  git commit -m "commit 02 de Natalia"
+  239  git push
+  240  git checkout main
+  241  mv main.js resumenHardware.txt
+  242  mv index.html resumenSoftware.txt
+  243  ls
+  244  git add .
+  245  git commit -m "commit 03 de Natalia"
+  246  git push
+  247  touch comandos.txt
+  248  history
